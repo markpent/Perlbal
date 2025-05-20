@@ -1,0 +1,24 @@
+Package: perlbal
+Version: 1.81-1
+Architecture: all
+Maintainer: Jonathan Steinert <deb@hachi.kuiki.net>
+Installed-Size: 272
+Depends: perl, libperlbal-perl
+Conflicts: perlbal-doc
+Replaces: perlbal-doc
+Section: web
+Priority: extra
+Description: Perl-based reverse proxy load balancer and web server
+ Perlbal is a single-threaded event-based server supporting HTTP load
+ balancing, web serving, and a mix of the two. Perlbal can act as either a web
+ server or a reverse proxy.
+ .
+ One of the defining things about Perlbal is that almost everything can be
+ configured or reconfigured on the fly without needing to restart the software.
+ A basic configuration file containing a management port enables you to easily
+ perform operations on a running instance of Perlbal.
+ .
+ Perlbal can also be extended by means of per-service (and global) plugins that
+ can override many parts of request handling and behavior.
+ .
+ Homepage: http://danga.com/perlbal/

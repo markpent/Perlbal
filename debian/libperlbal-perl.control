@@ -1,0 +1,17 @@
+Package: libperlbal-perl
+Source: perlbal
+Version: 1.81-1
+Architecture: all
+Maintainer: Jonathan Steinert <deb@hachi.kuiki.net>
+Installed-Size: 576
+Depends: perl (>= 5.6.0-16), libbsd-resource-perl, libdanga-socket-perl, libwww-perl, libnet-netmask-perl
+Recommends: libio-aio-perl
+Section: perl
+Priority: optional
+Description: Supporting perl libraries for perlbal
+ Perlbal is a single-threaded event-based server supporting HTTP load
+ balancing, web serving, and a mix of the two. Perlbal can act as either a web
+ server or a reverse proxy.
+ .
+ This package contains the module files (but not the daemon) for use with
+ perlbal, the reverse-proxy load balancer and webserver.
